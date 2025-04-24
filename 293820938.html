@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Екологія та захист природи</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #2c7d4f;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            background: #333;
+            color: white;
+            padding: 0.5rem;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 1rem;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        main {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        section {
+            margin-bottom: 2rem;
+            background: white;
+            padding: 1.5rem;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 1rem;
+        }
+        .tips {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+        .tip-card {
+            background: #e8f5e9;
+            padding: 1rem;
+            border-radius: 5px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        @media (max-width: 600px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            nav ul li {
+                margin: 0.3rem 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Екологія та захист природи</h1>
+        <p>Зробимо наш світ чистішим разом!</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#home">Головна</a></li>
+            <li><a href="#problems">Екологічні проблеми</a></li>
+            <li><a href="#solutions">Рішення</a></li>
+            <li><a href="#tips">Поради</a></li>
+            <li><a href="#about">Про проект</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <section id="home">
+            <h2>Ласкаво просимо на наш сайт!</h2>
+            <p>Наша планета - це наш дім, і ми повинні піклуватися про неї. Цей сайт присвячений проблемам екології та способам їх вирішення.</p>
+            <img src="https://images.unsplash.com/photo-1466611653911-95081537e5b7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="Природа">
+        </section>
+        
+        <section id="problems">
+            <h2>Основні екологічні проблеми</h2>
+            <ul>
+                <li><strong>Забруднення повітря:</strong> Викиди промислових підприємств, транспортні викиди.</li>
+                <li><strong>Забруднення води:</strong> Пластик у океанах, промислові стоки.</li>
+                <li><strong>Знеліснення:</strong> Вирубка лісів, знищення екосистем.</li>
+                <li><strong>Зміна клімату:</strong> Глобальне потепління, екстремальні погодні явища.</li>
+                <li><strong>Втрата біорізноманіття:</strong> Вимирання видів тварин і рослин.</li>
+            </ul>
+        </section>
+        
+        <section id="solutions">
+            <h2>Можливі рішення</h2>
+            <div class="tips">
+                <div class="tip-card">
+                    <h3>Відновлювальна енергетика</h3>
+                    <p>Перехід на сонячну, вітрову та інші види відновлювальної енергії.</p>
+                </div>
+                <div class="tip-card">
+                    <h3>Переробка відходів</h3>
+                    <p>Сортування сміття та переробка вторсировини.</p>
+                </div>
+                <div class="tip-card">
+                    <h3>Екологічний транспорт</h3>
+                    <p>Використання велосипедів, громадського транспорту, електромобілів.</p>
+                </div>
+                <div class="tip-card">
+                    <h3>Еко-продукти</h3>
+                    <p>Споживання локальних продуктів та зменшення використання пластику.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="tips">
+            <h2>Що може зробити кожен?</h2>
+            <ol>
+                <li>Сортуйте сміття</li>
+                <li>Використовуйте багаторазові пакети та посуд</li>
+                <li>Економите воду та електроенергію</li>
+                <li>Посадіть дерево або квіти</li>
+                <li>Поширюйте екологічну свідомість</li>
+            </ol>
+            <img src="https://images.unsplash.com/photo-1526779259212-939e64788e3c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="Еко-привички">
+        </section>
+        
+        <section id="about">
+            <h2>Про проект</h2>
+            <p>Цей сайт був створений для поширення інформації про екологічні проблеми та способи їх вирішення. Ми віримо, що кожен може внести свій внесок у захист навколишнього середовища.</p>
+            <p>Приєднуйтесь до нас у соціальних мережах та поширюйте цю інформацію!</p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>© 2023 Екологія та захист природи. Всі права відкриті.</p>
+        <p>Контакти: info@ecosite.example.com</p>
+    </footer>
+</body>
+</html>
